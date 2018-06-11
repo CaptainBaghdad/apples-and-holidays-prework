@@ -87,7 +87,7 @@ def all_holidays_with_bbq(holiday_hash)
   end 
    
  end 
- ans.flatten.delete(nil)
+ ans.flatten.delete(
 end
 
 
