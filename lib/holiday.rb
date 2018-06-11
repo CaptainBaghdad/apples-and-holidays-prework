@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
  ans = holiday_hash.map do |k,v| 
   v.map do |kk, vv|
      kk if vv.include?("BBQ")
-   end 
+   
     
   end 
    
